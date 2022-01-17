@@ -1,0 +1,32 @@
+/* 父容器 */
+.section{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+  }
+  
+  /* 目標容器 */
+  .section-middle {
+    /* 寬高 */
+    width:100%;
+    height: 0;
+    
+   
+  }
+  html {
+    height: 100%;
+    overflow: hidden;
+  }
+    body {
+    background-image: url('./images/off.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    }
+.margin-top{
+  margin-top: 10%;
+}
